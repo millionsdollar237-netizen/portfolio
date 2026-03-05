@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayed | Web & App Developer</title><!-- SEO --><meta name="description" content="Professional Website & App Developer in Kolkata. Gym Management Systems, Restaurant Websites, Ecommerce Stores, SEO and Business Automation.">
+<meta name="keywords" content="Website Developer Kolkata, App Developer Kolkata, Gym Management Software, Restaurant Website, Ecommerce Developer"><!-- Fonts --><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><!-- GSAP --><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script><!-- 3D --><script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins;background:#0a0a0a;color:white;overflow-x:hidden}
+
+nav{
+position:fixed;
+width:100%;
+padding:20px 10%;
+background:rgba(0,0,0,.6);
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000
+}
+
+nav h2{color:#00f2ff}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center
+}
+
+.hero h1{
+font-size:60px;
+background:linear-gradient(90deg,#00f2ff,#9d00ff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent
+}
+
+.hero p{margin-top:20px;font-size:20px;color:#aaa}
+
+.btn{
+margin-top:30px;
+padding:15px 35px;
+border-radius:30px;
+background:linear-gradient(90deg,#00f2ff,#9d00ff);
+color:white;
+text-decoration:none;
+font-weight:600
+}
+
+.section{
+padding:120px 10%
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:40px
+}
+
+.card{
+background:#111;
+border-radius:20px;
+overflow:hidden;
+transition:.4s
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,.5)
+}
+
+.card img{width:100%;height:180px;object-fit:cover}
+
+.card h3{padding:20px}
+
+.review{
+background:#111;
+padding:30px;
+border-radius:20px
+}
+
+.reviews{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px
+}
+
+footer{
+text-align:center;
+padding:40px;
+background:#000
+}
+
+#chatButton{
+position:fixed;
+bottom:30px;
+right:30px;
+background:#00f2ff;
+border:none;
+padding:15px 20px;
+border-radius:50px;
+cursor:pointer
+}
+
+#chatBox{
+position:fixed;
+bottom:100px;
+right:30px;
+width:300px;
+background:#111;
+padding:20px;
+border-radius:15px;
+display:none
+}
+
+#threeCanvas{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1
+}
+
+</style></head><body><canvas id="threeCanvas"></canvas>
+
+<nav>
+<h2>Jayed.dev</h2>
+<div>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</div>
+</nav><section class="hero">
+<h1>Premium Website & App Developer</h1>
+<p>Helping Businesses Grow With Modern Technology</p>
+<a class="btn" href="https://wa.me/919679329337">Hire Me</a>
+</section><section class="section" id="services">
+<h2>Services</h2>
+<div class="cards"><div class="card">
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b">
+<h3>Gym Management System</h3>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+<h3>Restaurant Website</h3>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1557821552-17105176677c">
+<h3>Ecommerce Store</h3>
+</div></div>
+</section><section class="section" id="projects">
+<h2>Live Demo Projects</h2>
+<div class="cards"><div class="card">
+<img src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce">
+<h3><a href="https://gymate.vercel.app" target="_blank">Gym Website Demo</a></h3>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0">
+<h3><a href="https://restaurant-demo.vercel.app" target="_blank">Restaurant Demo</a></h3>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da">
+<h3><a href="https://commercejs-demo.vercel.app" target="_blank">Ecommerce Demo</a></h3>
+</div></div>
+</section><section class="section" id="reviews">
+<h2>Client Reviews</h2>
+<div class="reviews"><div class="review">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Amazing website developer. My gym website increased members."</p>
+</div><div class="review">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Professional design and fast delivery."</p>
+</div><div class="review">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Best developer in Kolkata. Highly recommended."</p>
+</div></div>
+</section><section class="section" id="contact">
+<h2>Get Your Website</h2>
+<p>Contact directly on WhatsApp</p>
+<a class="btn" href="https://wa.me/919679329337">Chat on WhatsApp</a>
+</section><footer>
+<p>© 2026 Jayed Developer | Kolkata</p>
+</footer><button id="chatButton">AI Chat</button>
+
+<div id="chatBox">
+<p>Hi 👋 I am AI Assistant</p>
+<input id="msg" placeholder="Ask something" style="width:100%;padding:10px;margin-top:10px">
+</div><script>
+
+// CHAT TOGGLE
+let btn=document.getElementById("chatButton")
+let box=document.getElementById("chatBox")
+btn.onclick=()=>{
+box.style.display=box.style.display=="block"?"none":"block"
+}
+
+// SCROLL ANIMATION
+
+ gsap.utils.toArray(".card").forEach(card=>{
+ gsap.from(card,{ 
+ opacity:0,
+ y:80,
+ duration:1,
+ scrollTrigger:{
+ trigger:card,
+ start:"top 85%"
+ }
+ })
+ })
+
+// THREE JS 3D BACKGROUND
+
+let scene=new THREE.Scene()
+let camera=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000)
+
+let renderer=new THREE.WebGLRenderer({canvas:document.getElementById("threeCanvas"),alpha:true})
+renderer.setSize(window.innerWidth,window.innerHeight)
+
+let geometry=new THREE.TorusKnotGeometry(10,3,100,16)
+let material=new THREE.MeshBasicMaterial({color:0x00f2ff,wireframe:true})
+let knot=new THREE.Mesh(geometry,material)
+
+scene.add(knot)
+
+camera.position.z=30
+
+function animate(){
+requestAnimationFrame(animate)
+knot.rotation.x+=0.01
+knot.rotation.y+=0.01
+renderer.render(scene,camera)
+}
+
+animate()
+
+</script></body>
+</html>
